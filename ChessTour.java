@@ -25,7 +25,7 @@ public class ChessTour {
     // run a knight's tour simulation
     public static boolean runSim() throws IOException {  
         // declare chess board array
-        ChessPiece knight = new Bishop();
+        ChessPiece knight = new Knight();
 
         // continue the tour so long as a valid move is possible
         while(knight.canMove()) knight.move();
