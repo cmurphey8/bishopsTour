@@ -35,15 +35,9 @@ public class Knight extends ChessPiece {
         ChessGraphics.drawPiece(sprite, spHeight, spWidth, spRow, spCol);
     }
 
-    // WE DO: deep copy into protected parent class vars
+    // WE DO: deep copy into protected parent class vars xDiff, yDiff
     protected void deepCopy(int[] xTmp, int[] yTmp) {   
-        xDiff = new int[numMoves];
-        yDiff = new int[numMoves];
         
-        for(int i = 0; i < numMoves; i++) {
-            xDiff[i] = xTmp[i];
-            yDiff[i] = yTmp[i];
-        } 
     }
 
     // check for a complete knight's tour
