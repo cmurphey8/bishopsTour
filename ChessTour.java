@@ -2,10 +2,7 @@
 //
 //   File: KnightsTour.java
 //
-//   Dependancies: ChessBoard.java, DrawingPanel.java
-//
-//   YOU DO: To get random tour running via findRandom()...
-//           1)  complete fillChess() to init chess array
+//   Dependancies: ChessPiece.java, ChessBoard.java, ChessGraphics.java, DrawingPanel.java
 //
 //*******************************************************************
 
